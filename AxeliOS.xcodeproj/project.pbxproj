@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1270DDD9402C62066DDF58 /* Pods_AxeliOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4017C017AE8F961AA6BF1AE0 /* Pods_AxeliOS.framework */; };
+		167EAE7F1DA98FDA00EBC9C1 /* RESTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EAE7E1DA98FDA00EBC9C1 /* RESTManager.swift */; };
+		167EAE811DA9C33900EBC9C1 /* DiaperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EAE801DA9C33900EBC9C1 /* DiaperViewController.swift */; };
+		167EAE831DA9C9B900EBC9C1 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EAE821DA9C9B900EBC9C1 /* Messages.swift */; };
+		167EAE851DA9D1E800EBC9C1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167EAE841DA9D1E800EBC9C1 /* HomeViewController.swift */; };
+		168BDD121DA830700029D5A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168BDD111DA830700029D5A7 /* AppDelegate.swift */; };
+		168BDD141DA830700029D5A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168BDD131DA830700029D5A7 /* ViewController.swift */; };
+		168BDD171DA830700029D5A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168BDD151DA830700029D5A7 /* Main.storyboard */; };
+		168BDD191DA830700029D5A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 168BDD181DA830700029D5A7 /* Assets.xcassets */; };
+		168BDD1C1DA830700029D5A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168BDD1A1DA830700029D5A7 /* LaunchScreen.storyboard */; };
+		168BDD271DA830700029D5A7 /* AxeliOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168BDD261DA830700029D5A7 /* AxeliOSTests.swift */; };
+		168BDD361DA863EF0029D5A7 /* BabyBottleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168BDD351DA863EF0029D5A7 /* BabyBottleViewController.swift */; };
+		16F4ECFA1DAC0ED600D1B12A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4ECF91DAC0ED600D1B12A /* HistoryViewController.swift */; };
+		16F4ECFC1DAC159000D1B12A /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4ECFB1DAC159000D1B12A /* EventTableViewCell.swift */; };
+		16F4ECFE1DAC191300D1B12A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F4ECFD1DAC191300D1B12A /* Event.swift */; };
+		16F4ED001DAD0B7D00D1B12A /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16F4ECFF1DAD0B7D00D1B12A /* Settings.bundle */; };
+		2DDD1F8552084CD9D40D7BDD /* Pods_AxeliOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B1D5CDDAFE7D6F894DCBEF /* Pods_AxeliOSTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		168BDD231DA830700029D5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 168BDD061DA8306F0029D5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 168BDD0D1DA830700029D5A7;
+			remoteInfo = AxeliOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		167EAE7E1DA98FDA00EBC9C1 /* RESTManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTManager.swift; sourceTree = "<group>"; };
+		167EAE801DA9C33900EBC9C1 /* DiaperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaperViewController.swift; sourceTree = "<group>"; };
+		167EAE821DA9C9B900EBC9C1 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		167EAE841DA9D1E800EBC9C1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		168BDD0E1DA830700029D5A7 /* Axel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Axel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		168BDD111DA830700029D5A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		168BDD131DA830700029D5A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		168BDD161DA830700029D5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		168BDD181DA830700029D5A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		168BDD1B1DA830700029D5A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		168BDD1D1DA830700029D5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168BDD221DA830700029D5A7 /* AxeliOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AxeliOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		168BDD261DA830700029D5A7 /* AxeliOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxeliOSTests.swift; sourceTree = "<group>"; };
+		168BDD281DA830700029D5A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		168BDD351DA863EF0029D5A7 /* BabyBottleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyBottleViewController.swift; sourceTree = "<group>"; };
+		16F4ECF91DAC0ED600D1B12A /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		16F4ECFB1DAC159000D1B12A /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		16F4ECFD1DAC191300D1B12A /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		16F4ECFF1DAD0B7D00D1B12A /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = AxeliOS/Settings.bundle; sourceTree = "<group>"; };
+		1A3D9F20AD849D7AD5AE0EF1 /* Pods-AxeliOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeliOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxeliOSTests/Pods-AxeliOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4017C017AE8F961AA6BF1AE0 /* Pods_AxeliOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AxeliOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ACA455A1E0A1849D583A1E /* Pods-AxeliOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeliOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AxeliOS/Pods-AxeliOS.release.xcconfig"; sourceTree = "<group>"; };
+		7C8BD8B09DE691E009840894 /* Pods-AxeliOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeliOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxeliOSTests/Pods-AxeliOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		962213DDE3F136DFC395A711 /* Pods-AxeliOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AxeliOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AxeliOS/Pods-AxeliOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F9B1D5CDDAFE7D6F894DCBEF /* Pods_AxeliOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AxeliOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		168BDD0B1DA830700029D5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1270DDD9402C62066DDF58 /* Pods_AxeliOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168BDD1F1DA830700029D5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDD1F8552084CD9D40D7BDD /* Pods_AxeliOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168BDD051DA8306F0029D5A7 = {
+			isa = PBXGroup;
+			children = (
+				16F4ECFF1DAD0B7D00D1B12A /* Settings.bundle */,
+				168BDD101DA830700029D5A7 /* AxeliOS */,
+				168BDD251DA830700029D5A7 /* AxeliOSTests */,
+				168BDD0F1DA830700029D5A7 /* Products */,
+				262041FE6D3B5BDA4DDB4373 /* Pods */,
+				BFD61334E942DD75CAD1322B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		168BDD0F1DA830700029D5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				168BDD0E1DA830700029D5A7 /* Axel.app */,
+				168BDD221DA830700029D5A7 /* AxeliOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		168BDD101DA830700029D5A7 /* AxeliOS */ = {
+			isa = PBXGroup;
+			children = (
+				167EAE801DA9C33900EBC9C1 /* DiaperViewController.swift */,
+				168BDD351DA863EF0029D5A7 /* BabyBottleViewController.swift */,
+				168BDD111DA830700029D5A7 /* AppDelegate.swift */,
+				168BDD131DA830700029D5A7 /* ViewController.swift */,
+				168BDD151DA830700029D5A7 /* Main.storyboard */,
+				16F4ECFB1DAC159000D1B12A /* EventTableViewCell.swift */,
+				16F4ECFD1DAC191300D1B12A /* Event.swift */,
+				167EAE821DA9C9B900EBC9C1 /* Messages.swift */,
+				167EAE841DA9D1E800EBC9C1 /* HomeViewController.swift */,
+				168BDD181DA830700029D5A7 /* Assets.xcassets */,
+				168BDD1A1DA830700029D5A7 /* LaunchScreen.storyboard */,
+				168BDD1D1DA830700029D5A7 /* Info.plist */,
+				167EAE7E1DA98FDA00EBC9C1 /* RESTManager.swift */,
+				16F4ECF91DAC0ED600D1B12A /* HistoryViewController.swift */,
+			);
+			path = AxeliOS;
+			sourceTree = "<group>";
+		};
+		168BDD251DA830700029D5A7 /* AxeliOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				168BDD261DA830700029D5A7 /* AxeliOSTests.swift */,
+				168BDD281DA830700029D5A7 /* Info.plist */,
+			);
+			path = AxeliOSTests;
+			sourceTree = "<group>";
+		};
+		262041FE6D3B5BDA4DDB4373 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962213DDE3F136DFC395A711 /* Pods-AxeliOS.debug.xcconfig */,
+				42ACA455A1E0A1849D583A1E /* Pods-AxeliOS.release.xcconfig */,
+				7C8BD8B09DE691E009840894 /* Pods-AxeliOSTests.debug.xcconfig */,
+				1A3D9F20AD849D7AD5AE0EF1 /* Pods-AxeliOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BFD61334E942DD75CAD1322B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4017C017AE8F961AA6BF1AE0 /* Pods_AxeliOS.framework */,
+				F9B1D5CDDAFE7D6F894DCBEF /* Pods_AxeliOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		168BDD0D1DA830700029D5A7 /* AxeliOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168BDD2B1DA830700029D5A7 /* Build configuration list for PBXNativeTarget "AxeliOS" */;
+			buildPhases = (
+				C5413A50C6FB2759C624F111 /* [CP] Check Pods Manifest.lock */,
+				168BDD0A1DA830700029D5A7 /* Sources */,
+				168BDD0B1DA830700029D5A7 /* Frameworks */,
+				168BDD0C1DA830700029D5A7 /* Resources */,
+				2B116D8A32347DBA7C8BDEB0 /* [CP] Embed Pods Frameworks */,
+				5354DEADB9621917ED91F57F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AxeliOS;
+			productName = AxeliOS;
+			productReference = 168BDD0E1DA830700029D5A7 /* Axel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		168BDD211DA830700029D5A7 /* AxeliOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 168BDD2E1DA830700029D5A7 /* Build configuration list for PBXNativeTarget "AxeliOSTests" */;
+			buildPhases = (
+				AC50E45F125A78AC36C4DF41 /* [CP] Check Pods Manifest.lock */,
+				168BDD1E1DA830700029D5A7 /* Sources */,
+				168BDD1F1DA830700029D5A7 /* Frameworks */,
+				168BDD201DA830700029D5A7 /* Resources */,
+				085F5772EC5C4EBA598E1C08 /* [CP] Embed Pods Frameworks */,
+				3FCD5F39B46F4F97B549572E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				168BDD241DA830700029D5A7 /* PBXTargetDependency */,
+			);
+			name = AxeliOSTests;
+			productName = AxeliOSTests;
+			productReference = 168BDD221DA830700029D5A7 /* AxeliOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		168BDD061DA8306F0029D5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kevin Disneur";
+				TargetAttributes = {
+					168BDD0D1DA830700029D5A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J59Z4Y54S9;
+						ProvisioningStyle = Automatic;
+					};
+					168BDD211DA830700029D5A7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J59Z4Y54S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 168BDD0D1DA830700029D5A7;
+					};
+				};
+			};
+			buildConfigurationList = 168BDD091DA8306F0029D5A7 /* Build configuration list for PBXProject "AxeliOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 168BDD051DA8306F0029D5A7;
+			productRefGroup = 168BDD0F1DA830700029D5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				168BDD0D1DA830700029D5A7 /* AxeliOS */,
+				168BDD211DA830700029D5A7 /* AxeliOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		168BDD0C1DA830700029D5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F4ED001DAD0B7D00D1B12A /* Settings.bundle in Resources */,
+				168BDD1C1DA830700029D5A7 /* LaunchScreen.storyboard in Resources */,
+				168BDD191DA830700029D5A7 /* Assets.xcassets in Resources */,
+				168BDD171DA830700029D5A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168BDD201DA830700029D5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		085F5772EC5C4EBA598E1C08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AxeliOSTests/Pods-AxeliOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B116D8A32347DBA7C8BDEB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AxeliOS/Pods-AxeliOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FCD5F39B46F4F97B549572E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AxeliOSTests/Pods-AxeliOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5354DEADB9621917ED91F57F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AxeliOS/Pods-AxeliOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC50E45F125A78AC36C4DF41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5413A50C6FB2759C624F111 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168BDD0A1DA830700029D5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16F4ECFC1DAC159000D1B12A /* EventTableViewCell.swift in Sources */,
+				168BDD141DA830700029D5A7 /* ViewController.swift in Sources */,
+				167EAE831DA9C9B900EBC9C1 /* Messages.swift in Sources */,
+				167EAE7F1DA98FDA00EBC9C1 /* RESTManager.swift in Sources */,
+				16F4ECFE1DAC191300D1B12A /* Event.swift in Sources */,
+				168BDD121DA830700029D5A7 /* AppDelegate.swift in Sources */,
+				168BDD361DA863EF0029D5A7 /* BabyBottleViewController.swift in Sources */,
+				167EAE851DA9D1E800EBC9C1 /* HomeViewController.swift in Sources */,
+				167EAE811DA9C33900EBC9C1 /* DiaperViewController.swift in Sources */,
+				16F4ECFA1DAC0ED600D1B12A /* HistoryViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		168BDD1E1DA830700029D5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				168BDD271DA830700029D5A7 /* AxeliOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		168BDD241DA830700029D5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 168BDD0D1DA830700029D5A7 /* AxeliOS */;
+			targetProxy = 168BDD231DA830700029D5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		168BDD151DA830700029D5A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168BDD161DA830700029D5A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		168BDD1A1DA830700029D5A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				168BDD1B1DA830700029D5A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		168BDD291DA830700029D5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		168BDD2A1DA830700029D5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		168BDD2C1DA830700029D5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962213DDE3F136DFC395A711 /* Pods-AxeliOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J59Z4Y54S9;
+				INFOPLIST_FILE = AxeliOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.disneur.AxeliOS;
+				PRODUCT_NAME = Axel;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		168BDD2D1DA830700029D5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42ACA455A1E0A1849D583A1E /* Pods-AxeliOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J59Z4Y54S9;
+				INFOPLIST_FILE = AxeliOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.disneur.AxeliOS;
+				PRODUCT_NAME = Axel;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		168BDD2F1DA830700029D5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8BD8B09DE691E009840894 /* Pods-AxeliOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J59Z4Y54S9;
+				INFOPLIST_FILE = AxeliOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.disneur.AxeliOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxeliOS.app/AxeliOS";
+			};
+			name = Debug;
+		};
+		168BDD301DA830700029D5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A3D9F20AD849D7AD5AE0EF1 /* Pods-AxeliOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J59Z4Y54S9;
+				INFOPLIST_FILE = AxeliOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.disneur.AxeliOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AxeliOS.app/AxeliOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		168BDD091DA8306F0029D5A7 /* Build configuration list for PBXProject "AxeliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168BDD291DA830700029D5A7 /* Debug */,
+				168BDD2A1DA830700029D5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168BDD2B1DA830700029D5A7 /* Build configuration list for PBXNativeTarget "AxeliOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168BDD2C1DA830700029D5A7 /* Debug */,
+				168BDD2D1DA830700029D5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		168BDD2E1DA830700029D5A7 /* Build configuration list for PBXNativeTarget "AxeliOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				168BDD2F1DA830700029D5A7 /* Debug */,
+				168BDD301DA830700029D5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 168BDD061DA8306F0029D5A7 /* Project object */;
+}
